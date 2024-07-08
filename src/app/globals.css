@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'tomato grotesk', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
